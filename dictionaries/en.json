@@ -1,0 +1,27 @@
+{
+	"navigation": {
+		"home": "Home",
+		"about": "About",
+		"team": "Team",
+		"teamDetails": "Team Details"
+	},
+	"page": {
+		"home": {
+			"title": "Welcome to NextJs i18n",
+			"description": "Internationalization in NextJs 13 App router"
+		},
+		"about": {
+			"title": "About Us",
+			"description": {
+				"first": "The company itself is a very successful company. Where there is no one who is the whole of it, they fall into the consequences of rejecting the troubles, there are nothing, great, or most of the hardships that hinders some wise men.",
+				"second": "Is it the fault of our right to see that no one rejects our needs, but often chooses that? But the joy of truth, the times itself hates to be assumed! The easy-to-follow deserts of the truth hate the pleasure from which they provide services."
+			}
+		},
+		"team": {
+			"title": "Team Page"
+		},
+		"teamDetails": {
+			"title": "Team Details Page"
+		}
+	}
+}

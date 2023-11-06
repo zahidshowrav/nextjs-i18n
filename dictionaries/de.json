@@ -1,0 +1,27 @@
+{
+	"navigation": {
+		"home": "Startseite",
+		"about": "Über",
+		"team": "Team",
+		"teamDetails": "Teamdetails"
+	},
+	"page": {
+		"home": {
+			"title": "Willkommen bei NextJs i18n",
+			"description": "Internationalisierung im NextJs 13 App-Router"
+		},
+		"about": {
+			"title": "Über uns",
+			"description": {
+				"first": "Das Unternehmen selbst ist ein sehr erfolgreiches Unternehmen. Wo es niemanden gibt, der das Ganze kann, fallen sie in die Konsequenzen der Ablehnung der Probleme, es gibt nichts, Großes, oder die meisten Nöte, die einige kluge Männer daran hindern.",
+				"second": "Liegt es an unserem Recht, dafür zu sorgen, dass niemand unsere Bedürfnisse ablehnt, sondern sich oft dafür entscheidet? Aber die Freude an der Wahrheit, die Zeit selbst, hasst es, angenommen zu werden! Die leicht zu befolgenden Wüsten der Wahrheit hassen das Vergnügen, aus dem sie ihre Dienste erbringen."
+			}
+		},
+		"team": {
+			"title": "Teamseite"
+		},
+		"teamDetails": {
+			"title": "Teamdetailseite"
+		}
+	}
+}
