@@ -1,6 +1,6 @@
 'use client';
 
-import { classNames } from '@/app/_utils/helpers';
+import { cn } from '@/app/_utils/helpers';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
@@ -33,7 +33,7 @@ const Navbar = () => {
 						<Link
 							key={key}
 							href={item?.url}
-							className={classNames(
+							className={cn(
 								'p-2 m-2 first:pl-0 first:ml-0 text-gray-200',
 								pathname === item?.url
 									? 'underline underline-offset-2 font-semibold text-white cursor-text pointer-events-none'
