@@ -17,10 +17,6 @@ const Navbar = () => {
 			title: 'Home',
 		},
 		{
-			url: '/blog',
-			title: 'Blog',
-		},
-		{
 			url: '/about',
 			title: 'About',
 		},
@@ -30,9 +26,9 @@ const Navbar = () => {
 		},
 	];
 	return (
-		<div className="w-full h-20 border-b border-slate-100 fixed top-0 bg-black z-10 flex items-center justify-center">
-			<div className="w-[70%] mx-auto flex items-center justify-between ">
-				<div className="">
+		<div className='w-full h-20 border-b border-slate-100 fixed top-0 bg-black z-10 flex items-center justify-center'>
+			<div className='w-[70%] mx-auto flex items-center justify-between '>
+				<div className=''>
 					{menuItems.map((item: IMenuItem, key: number) => (
 						<Link
 							key={key}
@@ -48,7 +44,7 @@ const Navbar = () => {
 						</Link>
 					))}
 				</div>
-				<div className="">
+				<div className=''>
 					<LocaleSwitcher />
 				</div>
 			</div>
